@@ -6,6 +6,11 @@ namespace FrankDeJonge\Example;
 
 use FrankDeJonge\Example\CarSupply\CarSupplier;
 
+/**
+ * The car rental service is responsible for routing commands to
+ * individual aggregate roots. It allows the external of the service
+ * to be unaware of what the aggregate needs to function.
+ */
 class CarRentalService
 {
     private CarRentalRepository $repository;
