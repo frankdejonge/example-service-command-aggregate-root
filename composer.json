@@ -1,0 +1,17 @@
+{
+    "name": "frankdejonge/example-service-command-aggregate-root",
+    "autoload": {
+        "psr-4": {
+            "FrankDeJonge\\Example\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frank de Jonge",
+            "email": "info@frenky.net"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    }
+}
