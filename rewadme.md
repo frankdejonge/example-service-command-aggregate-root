@@ -1,4 +1,4 @@
-## Usagez
+## Usage
 
 ```
 $ composer install
